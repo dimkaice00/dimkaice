@@ -193,3 +193,8 @@ CREATE TABLE product_workshop (
     FOREIGN KEY (product_id) REFERENCES products(id),
     FOREIGN KEY (workshop_id) REFERENCES workshops(id)
 );
+rmdir /s /q .git
+del /f /q .gitignore
+del /f /q .gitattributes
+del /f /q README.md
+del /f /q LICENSE
